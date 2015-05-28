@@ -1,0 +1,88 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.6.2)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EGOCache (2.1.3)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - GPUImage (0.1.6)
+  - HHRouter (0.1.5)
+  - JDStatusBarNotification (1.5.2)
+  - JSONModel (1.1.0)
+  - KVOController (1.0.3)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - pop (1.0.7)
+  - REFormattedNumberField (1.1.5)
+  - RETableViewManager (1.6):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SSKeychain (1.2.3)
+  - TTTAttributedLabel (1.13.3)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFNetworking
+  - EGOCache
+  - FMDB
+  - GPUImage
+  - HHRouter
+  - JDStatusBarNotification
+  - JSONModel
+  - KVOController
+  - NJKWebViewProgress
+  - pop
+  - RETableViewManager
+  - SDWebImage
+  - SSKeychain
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: cc9f90ae785070623e9b972270013c3242190fb0
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  EGOCache: f0295dbe041156acabd39021354ad1045ee49e72
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  HHRouter: c82ce169fea838ea85a819133df40d19605f5c95
+  JDStatusBarNotification: a36d09ccbb047217572b074a61e7ca10dddc5f0a
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  REFormattedNumberField: be3d55dd709f65541fb26b7e1709da07903147f8
+  RETableViewManager: 9667ecb29c005c32df40a1dd1828224840a351a2
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  TTTAttributedLabel: 6f3174aef8e738f44dff97c2eb7d8184f6ab6277
+
+COCOAPODS: 0.37.1
