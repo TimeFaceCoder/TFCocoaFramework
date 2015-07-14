@@ -54,6 +54,18 @@
 #define COCOAPODS_VERSION_MINOR_ActionSheetPicker_3_0 6
 #define COCOAPODS_VERSION_PATCH_ActionSheetPicker_3_0 2
 
+// AsyncDisplayKit
+#define COCOAPODS_POD_AVAILABLE_AsyncDisplayKit
+#define COCOAPODS_VERSION_MAJOR_AsyncDisplayKit 1
+#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit 2
+#define COCOAPODS_VERSION_PATCH_AsyncDisplayKit 2
+
+// AsyncDisplayKit/ASDealloc2MainObject
+#define COCOAPODS_POD_AVAILABLE_AsyncDisplayKit_ASDealloc2MainObject
+#define COCOAPODS_VERSION_MAJOR_AsyncDisplayKit_ASDealloc2MainObject 1
+#define COCOAPODS_VERSION_MINOR_AsyncDisplayKit_ASDealloc2MainObject 2
+#define COCOAPODS_VERSION_PATCH_AsyncDisplayKit_ASDealloc2MainObject 2
+
 // EGOCache
 #define COCOAPODS_POD_AVAILABLE_EGOCache
 #define COCOAPODS_VERSION_MAJOR_EGOCache 2
@@ -82,7 +94,7 @@
 #define COCOAPODS_POD_AVAILABLE_GPUImage
 #define COCOAPODS_VERSION_MAJOR_GPUImage 0
 #define COCOAPODS_VERSION_MINOR_GPUImage 1
-#define COCOAPODS_VERSION_PATCH_GPUImage 6
+#define COCOAPODS_VERSION_PATCH_GPUImage 7
 
 // HHRouter
 #define COCOAPODS_POD_AVAILABLE_HHRouter
@@ -107,6 +119,12 @@
 #define COCOAPODS_VERSION_MAJOR_KVOController 1
 #define COCOAPODS_VERSION_MINOR_KVOController 0
 #define COCOAPODS_VERSION_PATCH_KVOController 3
+
+// Masonry
+#define COCOAPODS_POD_AVAILABLE_Masonry
+#define COCOAPODS_VERSION_MAJOR_Masonry 0
+#define COCOAPODS_VERSION_MINOR_Masonry 6
+#define COCOAPODS_VERSION_PATCH_Masonry 2
 
 // NJKWebViewProgress
 #define COCOAPODS_POD_AVAILABLE_NJKWebViewProgress
@@ -148,13 +166,13 @@
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
 #define COCOAPODS_VERSION_MINOR_SDWebImage 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage 2
+#define COCOAPODS_VERSION_PATCH_SDWebImage 3
 
 // SDWebImage/Core
 #define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
 #define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
 #define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
-#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 3
 
 // SSKeychain
 #define COCOAPODS_POD_AVAILABLE_SSKeychain
@@ -166,7 +184,7 @@
 #define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
 #define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
 #define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 13
-#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 3
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 4
 
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop

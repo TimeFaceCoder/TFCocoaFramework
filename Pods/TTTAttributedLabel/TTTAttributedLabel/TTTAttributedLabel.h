@@ -23,6 +23,12 @@
 #import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 
+//! Project version number for TTTAttributedLabel.
+FOUNDATION_EXPORT double TTTAttributedLabelVersionNumber;
+
+//! Project version string for TTTAttributedLabel.
+FOUNDATION_EXPORT const unsigned char TTTAttributedLabelVersionString[];
+
 @class TTTAttributedLabelLink;
 
 /**
@@ -68,7 +74,7 @@ extern NSString * const kTTTBackgroundCornerRadiusAttributeName;
 
 // Override UILabel @property to accept both NSString and NSAttributedString
 @protocol TTTAttributedLabel <NSObject>
-@property (nonatomic, copy) id text;
+@property (nonatomic, copy) IBInspectable id text;
 @end
 
 IB_DESIGNABLE
@@ -99,6 +105,12 @@ IB_DESIGNABLE
  @bug Setting `attributedText` directly is not recommended, as it may cause a crash when attempting to access any links previously set. Instead, call `setText:`, passing an `NSAttributedString`.
  */
 @interface TTTAttributedLabel : UILabel <TTTAttributedLabel, UIGestureRecognizerDelegate>
+
+/**
+ * The designated initializers are @c initWithFrame: and @c initWithCoder:.
+ * init will not properly initialize many required properties and other configuration.
+ */
+- (instancetype) init NS_UNAVAILABLE;
 
 ///-----------------------------
 /// @name Accessing the Delegate

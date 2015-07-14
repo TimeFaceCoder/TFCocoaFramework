@@ -13,11 +13,13 @@
 		B05EEA721B16B90F00364404 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA621B16B90F00364404 /* LaunchScreen.xib */; };
 		B05EEA731B16B90F00364404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA641B16B90F00364404 /* Main.storyboard */; };
 		B05EEA741B16B90F00364404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA661B16B90F00364404 /* Images.xcassets */; };
-		B05EEA751B16B90F00364404 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA671B16B90F00364404 /* Info.plist */; };
 		B05EEA761B16B90F00364404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05EEA681B16B90F00364404 /* main.m */; };
 		B05EEA771B16B90F00364404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05EEA6B1B16B90F00364404 /* ViewController.m */; };
 		B05EEA781B16B90F00364404 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA6D1B16B90F00364404 /* LaunchScreen.strings */; };
 		B05EEA791B16B90F00364404 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA6F1B16B90F00364404 /* Main.strings */; };
+		B05EEA811B1741C900364404 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05EEA801B1741C900364404 /* TFViewController.m */; };
+		B0FD433C1B185E94005A770B /* TFTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD433B1B185E94005A770B /* TFTableViewItem.m */; };
+		B0FD433F1B185EA7005A770B /* TFTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD433E1B185EA7005A770B /* TFTableViewItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,12 @@
 		B05EEA6B1B16B90F00364404 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TFCocoaFrameworkDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
 		B05EEA6E1B16B90F00364404 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = LaunchScreen.strings; sourceTree = "<group>"; };
 		B05EEA701B16B90F00364404 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Main.strings; sourceTree = "<group>"; };
+		B05EEA7F1B1741C900364404 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		B05EEA801B1741C900364404 /* TFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		B0FD433A1B185E94005A770B /* TFTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewItem.h; sourceTree = "<group>"; };
+		B0FD433B1B185E94005A770B /* TFTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItem.m; sourceTree = "<group>"; };
+		B0FD433D1B185EA7005A770B /* TFTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewItemCell.h; sourceTree = "<group>"; };
+		B0FD433E1B185EA7005A770B /* TFTableViewItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 		B05EEA351B16B01D00364404 /* TFCocoaFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B05EEA7A1B17417F00364404 /* TFCategories */,
+				B05EEA7B1B17417F00364404 /* TFData */,
+				B05EEA7C1B17417F00364404 /* TFNetWork */,
+				B05EEA7D1B17417F00364404 /* TFViewController */,
+				B05EEA7E1B17417F00364404 /* TFViews */,
 			);
 			path = TFCocoaFramework;
 			sourceTree = "<group>";
@@ -178,6 +191,63 @@
 			path = "TFCocoaFrameworkDemo/zh-Hans.lproj";
 			sourceTree = SOURCE_ROOT;
 		};
+		B05EEA7A1B17417F00364404 /* TFCategories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TFCategories;
+			sourceTree = "<group>";
+		};
+		B05EEA7B1B17417F00364404 /* TFData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TFData;
+			sourceTree = "<group>";
+		};
+		B05EEA7C1B17417F00364404 /* TFNetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TFNetWork;
+			sourceTree = "<group>";
+		};
+		B05EEA7D1B17417F00364404 /* TFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B05EEA7F1B1741C900364404 /* TFViewController.h */,
+				B05EEA801B1741C900364404 /* TFViewController.m */,
+			);
+			path = TFViewController;
+			sourceTree = "<group>";
+		};
+		B05EEA7E1B17417F00364404 /* TFViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD43381B185E80005A770B /* TFTableViewItem */,
+				B0FD43391B185E80005A770B /* TFTableViewItemCell */,
+			);
+			path = TFViews;
+			sourceTree = "<group>";
+		};
+		B0FD43381B185E80005A770B /* TFTableViewItem */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD433A1B185E94005A770B /* TFTableViewItem.h */,
+				B0FD433B1B185E94005A770B /* TFTableViewItem.m */,
+			);
+			path = TFTableViewItem;
+			sourceTree = "<group>";
+		};
+		B0FD43391B185E80005A770B /* TFTableViewItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD433D1B185EA7005A770B /* TFTableViewItemCell.h */,
+				B0FD433E1B185EA7005A770B /* TFTableViewItemCell.m */,
+			);
+			path = TFTableViewItemCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,7 +294,7 @@
 		B05EEA2B1B16B01D00364404 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = TimeFace;
 				TargetAttributes = {
 					B05EEA321B16B01D00364404 = {
@@ -261,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05EEA751B16B90F00364404 /* Info.plist in Resources */,
 				B05EEA741B16B90F00364404 /* Images.xcassets in Resources */,
 				B05EEA721B16B90F00364404 /* LaunchScreen.xib in Resources */,
 				B05EEA791B16B90F00364404 /* Main.strings in Resources */,
@@ -317,8 +386,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FD433F1B185EA7005A770B /* TFTableViewItemCell.m in Sources */,
+				B0FD433C1B185E94005A770B /* TFTableViewItem.m in Sources */,
 				B05EEA771B16B90F00364404 /* ViewController.m in Sources */,
 				B05EEA761B16B90F00364404 /* main.m in Sources */,
+				B05EEA811B1741C900364404 /* TFViewController.m in Sources */,
 				B05EEA711B16B90F00364404 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +469,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -441,6 +515,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -464,8 +539,11 @@
 			baseConfigurationReference = 1E97AFD8BCE989381D62E2B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TFCocoaFrameworkDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.timeface.base.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -475,8 +553,11 @@
 			baseConfigurationReference = 21C9C08C3895625A9C0AEEB7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/TFCocoaFrameworkDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.timeface.base.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -495,6 +576,7 @@
 				);
 				INFOPLIST_FILE = TFCocoaFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.timeface.base.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFCocoaFramework.app/TFCocoaFramework";
 			};
@@ -510,6 +592,7 @@
 				);
 				INFOPLIST_FILE = TFCocoaFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.timeface.base.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFCocoaFramework.app/TFCocoaFramework";
 			};
