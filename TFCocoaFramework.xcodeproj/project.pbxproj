@@ -18,6 +18,11 @@
 		B05EEA781B16B90F00364404 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA6D1B16B90F00364404 /* LaunchScreen.strings */; };
 		B05EEA791B16B90F00364404 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05EEA6F1B16B90F00364404 /* Main.strings */; };
 		B05EEA811B1741C900364404 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05EEA801B1741C900364404 /* TFViewController.m */; };
+		B0AAB2751B551234008C6012 /* TFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AAB2741B551234008C6012 /* TFTableViewController.m */; };
+		B0AAB2781B55124D008C6012 /* TFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AAB2771B55124D008C6012 /* TFNavigationViewController.m */; };
+		B0AAB27C1B551346008C6012 /* TFStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AAB27B1B551346008C6012 /* TFStyle.m */; };
+		B0AAB2801B5514C2008C6012 /* UIView+TFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AAB27F1B5514C2008C6012 /* UIView+TFAdditions.m */; };
+		B0AAB2831B5517A2008C6012 /* TFGlobalUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AAB2821B5517A2008C6012 /* TFGlobalUICommon.m */; };
 		B0FD433C1B185E94005A770B /* TFTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD433B1B185E94005A770B /* TFTableViewItem.m */; };
 		B0FD433F1B185EA7005A770B /* TFTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD433E1B185EA7005A770B /* TFTableViewItemCell.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +58,17 @@
 		B05EEA701B16B90F00364404 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Main.strings; sourceTree = "<group>"; };
 		B05EEA7F1B1741C900364404 /* TFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
 		B05EEA801B1741C900364404 /* TFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		B0AAB2731B551234008C6012 /* TFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewController.h; sourceTree = "<group>"; };
+		B0AAB2741B551234008C6012 /* TFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewController.m; sourceTree = "<group>"; };
+		B0AAB2761B55124D008C6012 /* TFNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNavigationViewController.h; sourceTree = "<group>"; };
+		B0AAB2771B55124D008C6012 /* TFNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNavigationViewController.m; sourceTree = "<group>"; };
+		B0AAB27A1B551346008C6012 /* TFStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFStyle.h; sourceTree = "<group>"; };
+		B0AAB27B1B551346008C6012 /* TFStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFStyle.m; sourceTree = "<group>"; };
+		B0AAB27D1B55147C008C6012 /* TFCategoriesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCategoriesKit.h; sourceTree = "<group>"; };
+		B0AAB27E1B5514C2008C6012 /* UIView+TFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFAdditions.h"; sourceTree = "<group>"; };
+		B0AAB27F1B5514C2008C6012 /* UIView+TFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFAdditions.m"; sourceTree = "<group>"; };
+		B0AAB2811B5517A2008C6012 /* TFGlobalUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGlobalUICommon.h; sourceTree = "<group>"; };
+		B0AAB2821B5517A2008C6012 /* TFGlobalUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGlobalUICommon.m; sourceTree = "<group>"; };
 		B0FD433A1B185E94005A770B /* TFTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewItem.h; sourceTree = "<group>"; };
 		B0FD433B1B185E94005A770B /* TFTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItem.m; sourceTree = "<group>"; };
 		B0FD433D1B185EA7005A770B /* TFTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewItemCell.h; sourceTree = "<group>"; };
@@ -119,6 +135,7 @@
 		B05EEA351B16B01D00364404 /* TFCocoaFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B0AAB2791B551334008C6012 /* TFStyle */,
 				B05EEA7A1B17417F00364404 /* TFCategories */,
 				B05EEA7B1B17417F00364404 /* TFData */,
 				B05EEA7C1B17417F00364404 /* TFNetWork */,
@@ -194,6 +211,11 @@
 		B05EEA7A1B17417F00364404 /* TFCategories */ = {
 			isa = PBXGroup;
 			children = (
+				B0AAB27D1B55147C008C6012 /* TFCategoriesKit.h */,
+				B0AAB27E1B5514C2008C6012 /* UIView+TFAdditions.h */,
+				B0AAB27F1B5514C2008C6012 /* UIView+TFAdditions.m */,
+				B0AAB2811B5517A2008C6012 /* TFGlobalUICommon.h */,
+				B0AAB2821B5517A2008C6012 /* TFGlobalUICommon.m */,
 			);
 			path = TFCategories;
 			sourceTree = "<group>";
@@ -217,6 +239,10 @@
 			children = (
 				B05EEA7F1B1741C900364404 /* TFViewController.h */,
 				B05EEA801B1741C900364404 /* TFViewController.m */,
+				B0AAB2731B551234008C6012 /* TFTableViewController.h */,
+				B0AAB2741B551234008C6012 /* TFTableViewController.m */,
+				B0AAB2761B55124D008C6012 /* TFNavigationViewController.h */,
+				B0AAB2771B55124D008C6012 /* TFNavigationViewController.m */,
 			);
 			path = TFViewController;
 			sourceTree = "<group>";
@@ -228,6 +254,15 @@
 				B0FD43391B185E80005A770B /* TFTableViewItemCell */,
 			);
 			path = TFViews;
+			sourceTree = "<group>";
+		};
+		B0AAB2791B551334008C6012 /* TFStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B0AAB27A1B551346008C6012 /* TFStyle.h */,
+				B0AAB27B1B551346008C6012 /* TFStyle.m */,
+			);
+			path = TFStyle;
 			sourceTree = "<group>";
 		};
 		B0FD43381B185E80005A770B /* TFTableViewItem */ = {
@@ -386,12 +421,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AAB2781B55124D008C6012 /* TFNavigationViewController.m in Sources */,
+				B0AAB2831B5517A2008C6012 /* TFGlobalUICommon.m in Sources */,
 				B0FD433F1B185EA7005A770B /* TFTableViewItemCell.m in Sources */,
 				B0FD433C1B185E94005A770B /* TFTableViewItem.m in Sources */,
 				B05EEA771B16B90F00364404 /* ViewController.m in Sources */,
+				B0AAB27C1B551346008C6012 /* TFStyle.m in Sources */,
 				B05EEA761B16B90F00364404 /* main.m in Sources */,
+				B0AAB2801B5514C2008C6012 /* UIView+TFAdditions.m in Sources */,
 				B05EEA811B1741C900364404 /* TFViewController.m in Sources */,
 				B05EEA711B16B90F00364404 /* AppDelegate.m in Sources */,
+				B0AAB2751B551234008C6012 /* TFTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
